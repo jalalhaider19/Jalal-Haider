@@ -70,6 +70,7 @@ statistics = pd.DataFrame({
     'Variance': data_new[['Age', 'Height', 'Weight', 'Income']].var()
 })
 
+
 # Calculate the mode for Gender
 gender_mode = data_new['Gender'].mode()[0]
 
@@ -112,7 +113,6 @@ plt.tight_layout()
 plt.show()
 
 ## Using KDE Plots 
-# Set the aesthetic style of the plots
 sns.set(style="whitegrid")
 
 # Create KDE plots for Age, Height, Weight, and Income
