@@ -1,8 +1,9 @@
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
-public class PartA {
+//Assignment working on Processes and Resources {A, B, C} 
+//Using Singly linked lists and Queue functions 
+public class processScheduler {
     
     private static class Process {
         String id;
