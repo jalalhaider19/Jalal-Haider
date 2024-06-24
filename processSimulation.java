@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-public class PartB {
+public class processSimulation {
     public static void main(String[] args) {
         List<Integer> processes = new LinkedList<>(); //creates a list of processes in a chain 
         Random random = new Random(); //random instantiated from Random
